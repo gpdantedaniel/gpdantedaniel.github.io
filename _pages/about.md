@@ -30,4 +30,4 @@ Greetings! I see that you've found my personal website in this corner of the int
 
 I love all things engineering, but I’m not just talking about man-made things. This includes what I like to call natural engineering, the design solutions that evolution has come up with for the creatures that roam, swim, wiggle and fly on this planet.
 
-To that end, I write about both kinds of engineering and explore how they can merge to create even more brilliant things. Take a look around my [blog](blog) and my [projects](projects). Do enjoy, and shoot me an email if you have any thoughts or suggestions!
+To that end, I write about both kinds of engineering and explore how they converge. Take a look around my [blog](blog) and my [projects](projects). Do enjoy, and shoot me an email if you have any thoughts or suggestions!
