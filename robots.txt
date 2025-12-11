@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gpdantedaniel.github.io/al-folio/sitemap.xml
+Sitemap: https://gpdantedaniel.github.io/sitemap.xml
