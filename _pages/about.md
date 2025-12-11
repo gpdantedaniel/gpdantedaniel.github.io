@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Bioengineering student at McGill University
 
 profile:
   align: right
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Can I write this. I will tell the world about myself! Emma can you see this? [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Greetings! I see that you've found my personal website in this corner of the internet. The name's Dante. I'm a bioengineering student at McGill University, though some may say that I am a software type disguised as one.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I love all things engineering, but I’m not just talking about man-made things. This includes what I like to call natural engineering, the design solutions that evolution has come up with for the creatures that roam, swim, wiggle and fly on this planet.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+To that end, I write about both kinds of engineering and explore how they can merge to create even more brilliant things. Take a look around my [blog](blog) and my [projects](projects). Do enjoy, and shoot me an email if you have any thoughts or suggestions!
