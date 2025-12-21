@@ -1,3 +1,3 @@
-# My Personal Blog
+# Dante's Corner
 
-I think that the title tells you what this is about.
+A bioengineering blog in which I explore natural and human engineering.
