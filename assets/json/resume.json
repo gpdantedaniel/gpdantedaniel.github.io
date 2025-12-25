@@ -1,18 +1,15 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Dante Garcia",
+    "label": "Bioengineering Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "gp.dantedaniel@gmail.com",
+    "url": "https://gpdantedaniel.github.io/",
+    "summary": "Bioengineering student with a special penchant for computers and microorganisms. Enjoys a cup of green tea now and then.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Montreal",
+      "countryCode": "CA",
+      "region": "Québec"
     },
     "profiles": [
       {
@@ -24,47 +21,44 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Department of Bioengineering, McGill University",
+      "position": "Course Assistant",
+      "url": "https://bioengineering.hyperbook.mcgill.ca/about-us/",
+      "startDate": "2025-05",
+      "endDate": "2025-12",
+      "summary": "Developed a RAG-powered virtual TA for the course BIEN 200 to help students write their research articles using the works of previous cohorts as a knowledge base. Designed a topic-modelling pipeline that links papers together using LLM embeddings. Corrected student research articles as well.",
+      "highlights": ["Agentic AI", "Text embeddings", "Topic modelling"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "McGill iGEM",
+      "position": "Dry Lab Research Member",
+      "url": "https://2025.igem.wiki/mcgill/team",
+      "startDate": "2024-11",
+      "endDate": "2025-10",
+      "summary": "Developed AI models for generating and evaluating functional mutant proteins as part of McGill iGEM's dry lab project. Ran workshops to introduce pre-university students to machine learning and synthetic biology.",
+      "highlights": ["Research and development", "Fine-tuning and designing models", "Thermodynamic predictions", "Educational workshops"]
+    },
+    {
+      "name": "Agence de brevets Fournier",
+      "position": "Web Developer",
+      "url": "https://abfournier.com/",
+      "startDate": "2024-06",
+      "endDate": "2025-07",
+      "summary": "Developed a website for a patent agency. The website's design was informed by market research and optimized to be fast, inexpensive and effective at reaching potential customers.",
+      "highlights": ["Web development", "Copy writing", "Wordpress", "Figma wireframes"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "McGill University",
+      "location": "Montreal, Canada",
+      "url": "https://www.mcgill.ca/",
+      "area": "Bioengineering",
+      "studyType": "BEng",
+      "startDate": "2024-07",
+      "endDate": "2028-04",
+      "score": "3.94 GPA",
+      "courses": ["BIEN 310 Introduction to Biomolecular Engineering", "BIEN 350 Biosignals, Systems and Control", "BIEN 290 Bioengineering Measurement Laboratory"]
     }
   ],
   "certificates": [
@@ -136,65 +130,126 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Software Development",
+      "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "R"
+      ]
+    },
+    {
+      "name": "Dataset Creation",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Pandas",
+        "PyArrow",
+        "HuggingFace"
+      ]
+    },
+    {
+      "name": "Model Design",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "HuggingFace",
+        "PyTorch",
+        "Scikit-Learn"
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Matplotlib",
+        "Seaborn",
+        "Plotly"
+      ]
+    },
+    {
+      "name": "Agentic AI",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "LangGraph",
+        "LlamaIndex",
+        "Haystack",
+        "ChromaDB",
+        "SentenceTransformers"
+      ]
+    },
+    {
+      "name": "App Development",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Flask",
+        "NextJS",
+        "React",
+        "React Native",
+        "Redux", 
+        "Docker"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Firebase",
+        "Supabase",
+        "Google Cloud",
+        "Microsoft Azure",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Figma",
+        "Wordpress",
+        "Elementor",
+        "GeneratePress"
       ]
     }
+
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "French",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Bioengineering",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Protein design",
+        "Signal processing",
+        "Computational modelling",
+        "Synthetic biology",
+        "Neural interfaces",
+        "Machine learning"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }

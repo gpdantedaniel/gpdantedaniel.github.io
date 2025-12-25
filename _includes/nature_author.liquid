@@ -1,0 +1,46 @@
+{% comment %}
+  Convert author name to Nature format
+  Usage: {% include nature_author.html author=author %}
+{% endcomment %}
+
+{% assign author = include.author %}
+{% assign first_name = author.first %}
+{% assign last_name = author.last %}
+{% assign initials = "" %}
+
+{% if first_name contains "." %}
+  {% assign name_parts = first_name | replace: ".", " . " | split: " " %}
+{% else %}
+  {% assign name_parts = first_name | split: " " %}
+{% endif %}
+
+{% for part in name_parts %}
+  {% if part != "" %}
+    {% if part contains "-" %}
+      {% assign hyphen_parts = part | split: "-" %}
+      {% for hpart in hyphen_parts %}
+        {% assign hpart_stripped = hpart | strip %}
+        {% if hpart_stripped != "" %}
+          {% assign initials = initials | append: hpart_stripped | slice: 0 | append: "." %}
+          {% unless forloop.last %}
+            {% assign initials = initials | append: "-" %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% elsif part == "." %}
+      {% continue %}
+    {% else %}
+      {% assign part_stripped = part | strip %}
+      {% if part_stripped != "" %}
+        {% assign initials = initials | append: part_stripped | slice: 0 | append: "." %}
+      {% endif %}
+    {% endif %}
+    {% unless forloop.last %}
+      {% if name_parts[forloop.index] != "." and name_parts[forloop.index] != "" %}
+        {% assign initials = initials | append: " " %}
+      {% endif %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{{ last_name }}, {{ initials | strip }}

@@ -2,7 +2,19 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+
+.post-content #markdown-content {
+  text-align: justify;
+}
+
 // Typography
+
+.nature-reference em {
+  font-style: italic;
+}
+.nature-reference strong {
+  font-weight: bold;
+}
 
 p,
 h1,
@@ -17,6 +29,11 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: Helvetica, Arial, sans-serif
+}
+
+strong {
+  font-weight: 600;
 }
 
 h1,
@@ -204,6 +221,7 @@ ul.task-list input[type="checkbox"] {
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+  font-size: 0.8em;
 }
 
 // Profile
@@ -429,7 +447,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       img {
@@ -757,9 +775,10 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
+    list-style: decimal;
     padding: 0;
     margin-top: 0;
+    padding-left: 1em;
 
     li {
       margin-bottom: 1rem;

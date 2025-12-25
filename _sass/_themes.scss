@@ -158,4 +158,9 @@ html[data-theme-setting="light"] {
     padding-top: 12px;
     display: block;
   }
+
+  .node rect {
+    fill: #ccf3d8 !important;
+    stroke: #006620 !important;
+  }
 }
