@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Kombucha SCOBY as The Biochemical Engineering Platform of Tomorrow
-date: 2025-12-23 6:00:00
-description: Or how SCOBY fits the requirements of future coculturing systems
+title: SCOBY as the Biochemical Engineering Platform of Tomorrow
+date: 2025-12-25 6:00:00
+description: An exploration of what makes SCOBY an attractive foundation for building coculturing systems and how it could be redesigned and augmented.
 categories: bioengineering
 thumbnail: assets/img/tim-oliver-metz-cZIiXRX9PqE-unsplash.jpg
 related_posts: true
@@ -138,7 +138,7 @@ Conversely, microbes can be added to a SCOBY colony, adding new metabolic pathwa
 
 Established microbes in SCOBY could further be modified to optimize certain functions. For instance, *K. xylinus* can be modified to improve cellulose synthesis and thus fortify the biofilm matrix. Quorum sensing could also be engineered into *Komagataeibacter* strains to modulate cellulose production, and more generally, genetic circuits could be integrated as well to modulate production of acetic acid{% cite chenAdvancingKombuchaFermentation2025 %}.
 
-### Systems Biology Modelling of SCOBY *In Silico*
+### Systems Biology Modelling of SCOBY
 
 SCOBY comprises a complex network of microbial interactions. Though we have yet to fully map these out, they will be essential in building community-wide models that predict interactions, metabolite yields and the spatiotemporal evolution of microbial populations{% cite kumarMicrobialConsortiaBiotechnology2025 liComprehensiveEvaluationMicrobial2025a jiangConstructionStableMicrobial2023 %}.  Machine learning architectures (*e.g.*, neural networks), simulations (*e.g.*, digital twins) and mathematical models (*e.g.*, flux balance analysis) will underpin future computational models, enabling us to optimize metabolic processes for stability and high productivity{% cite kumarMicrobialConsortiaBiotechnology2025 chenAdvancingKombuchaFermentation2025 liComprehensiveEvaluationMicrobial2025a %}.
 
