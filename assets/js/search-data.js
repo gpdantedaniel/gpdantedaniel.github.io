@@ -23,11 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-kombucha-scoby-as-the-biochemical-engineering-platform-of-tomorrow",
+        },{id: "post-scoby-as-the-biochemical-engineering-platform-of-tomorrow",
         
-          title: "Kombucha SCOBY as The Biochemical Engineering Platform of Tomorrow",
+          title: "SCOBY as the Biochemical Engineering Platform of Tomorrow",
         
-        description: "Or how SCOBY fits the requirements of future coculturing systems",
+        description: "An exploration of what makes SCOBY an attractive foundation for building coculturing systems and how it could be redesigned and augmented.",
         section: "Posts",
         handler: () => {
           
