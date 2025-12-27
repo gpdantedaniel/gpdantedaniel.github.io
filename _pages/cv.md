@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 3
 cv_pdf: dantegcv.pdf
-description: Qualifications, education and and things that I have worked on.
+description: Qualifications, education and things that I have worked on.
 toc:
   sidebar: left
 ---
