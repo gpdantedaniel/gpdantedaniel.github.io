@@ -7,7 +7,7 @@ first_name: Dante
 middle_name:
 last_name: Garcia
 contact_note: >
-  Reach out to me by email! I'll make sure to answer quickly.
+  Any thoughts to share? Reach out to me by email!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A blog about biological engineering, exploring how human technology and nature merge.
 footer_text:
